@@ -1,1 +1,1 @@
-# Python-2
+# Python-2 do curdo do Guanabara
