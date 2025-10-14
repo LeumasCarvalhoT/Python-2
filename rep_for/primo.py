@@ -8,11 +8,11 @@ for i in range(1, n + 1):
         print('\033[33m', end='')
     print('{} '.format(i), end='')
 
-
+print('\033[m')
 if total == 2:
-    print('\n\033[mO total de números divisores é {}, logo o número é primo'.format(total))
+    print('O total de números divisores é {}, logo o número é primo'.format(total))
 elif total >= 3:
-    print('\n\033[mO total de números divisores é {}, logo o número não é primo'.format(total))
+    print('[mO total de números divisores é {}, logo o número não é primo'.format(total))
 
    
 
